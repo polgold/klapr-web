@@ -8,7 +8,7 @@ export default function RegistroPage() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.location.href = "https://app.klapr.com/signup";
+      window.location.href = "https://klapr.vercel.app/signup";
     }, 1000);
     return () => clearTimeout(timer);
   }, []);

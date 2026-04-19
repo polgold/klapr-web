@@ -22,7 +22,7 @@ app/
 ├── funcionalidades/
 │   └── page.tsx            # Página de funcionalidades (/funcionalidades)
 └── registro/
-    └── page.tsx            # Redirect a app.klapr.com/signup (/registro)
+    └── page.tsx            # Redirect a klapr.vercel.app/signup (/registro)
 
 components/
 ├── Navbar.tsx              # Navbar sticky con hamburger menu
@@ -71,4 +71,4 @@ npx vercel --prod
 | `/` | Landing page con hero, features, pricing preview y CTA |
 | `/funcionalidades` | Detalle de cada módulo con mock UI |
 | `/precios` | Pricing con toggle mensual/anual, tabla comparativa y FAQ |
-| `/registro` | Redirect a `https://app.klapr.com/signup` |
+| `/registro` | Redirect a `https://klapr.vercel.app/signup` |

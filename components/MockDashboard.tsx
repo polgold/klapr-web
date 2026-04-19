@@ -30,7 +30,7 @@ export function MockDashboard({ sidebarLabels, columnLabels, newLabel }: MockDas
         <span className="w-3 h-3 rounded-full" style={{ background: "#ef4444" }} />
         <span className="w-3 h-3 rounded-full" style={{ background: "#eab308" }} />
         <span className="w-3 h-3 rounded-full" style={{ background: "#22c55e" }} />
-        <span className="ml-4 text-xs text-gray-500 font-mono">app.klapr.com</span>
+        <span className="ml-4 text-xs text-gray-500 font-mono">klapr.vercel.app</span>
       </div>
 
       {/* App body */}
