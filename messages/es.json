@@ -1,0 +1,321 @@
+{
+  "MockDashboard": {
+    "sidebarLabels": ["Dashboard", "Clientes", "Trabajos", "Agenda", "Equipo", "Proveedores"],
+    "columnLabels": ["Prospecto", "En producción", "Entregado"],
+    "newLabel": "+ Nuevo"
+  },
+  "Navbar": {
+    "features": "Funcionalidades",
+    "pricing": "Precios",
+    "cta": "Empezar gratis",
+    "langSwitch": "EN",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "Footer": {
+    "tagline": "El CRM para productoras audiovisuales independientes. Hecho para LATAM.",
+    "product": "Producto",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "comingSoon": "próximamente",
+    "contact": "Contacto",
+    "copyright": "© 2026 Klapr. Todos los derechos reservados.",
+    "love": "Hecho con ♥ para productoras de LATAM"
+  },
+  "Home": {
+    "badge": "Hecho para LATAM",
+    "heroHeadline": "El CRM para productoras audiovisuales.",
+    "heroSub": "Gestioná clientes, proyectos, crew y equipos desde un solo lugar. Hecho para LATAM.",
+    "ctaStart": "Empezar gratis",
+    "ctaDemo": "Ver demo",
+    "socialLabel": "Usado por productoras en Argentina, México y Chile",
+    "socialProof": [
+      "Filmar Productions",
+      "Estudio Norte",
+      "Cinelab MX",
+      "360 Audiovisual",
+      "Productora Sur",
+      "Frame by Frame"
+    ],
+    "problemHeadline": "¿Seguís usando Excel y WhatsApp para manejar tu productora?",
+    "problemSub": "El 78% de las productoras independientes de LATAM llevan su gestión en herramientas que no fueron diseñadas para esto.",
+    "problems": [
+      {
+        "icon": "📊",
+        "title": "Clientes dispersos en Excel",
+        "desc": "Contactos en hojas de cálculo, emails sin seguimiento, oportunidades que se pierden porque nadie recuerda el próximo paso."
+      },
+      {
+        "icon": "📱",
+        "title": "Proyectos coordinados por WhatsApp",
+        "desc": "Sin visibilidad del estado real de cada trabajo, sin historial accesible, y siempre dependiendo de un grupo de chat."
+      },
+      {
+        "icon": "💸",
+        "title": "Caos de crew en cada liquidación",
+        "desc": "Buscar DNI/CUIL de cada técnico al momento de pagar, duplicar datos entre proyectos, errores en contratos."
+      }
+    ],
+    "featuresHeadline": "Todo lo que necesitás, en un solo lugar.",
+    "featuresSub": "Klapr integra las herramientas que tu productora necesita sin las que no.",
+    "featuresLink": "Ver todas las funcionalidades →",
+    "features": [
+      { "icon": "👥", "title": "Clientes & CRM", "desc": "Pipeline visual de oportunidades con historial completo de cada cliente. Nunca más pierdas un lead audiovisual." },
+      { "icon": "📋", "title": "Trabajos en Kanban", "desc": "Organizá cada proyecto con drag & drop. Estados personalizables y visibilidad total del pipeline de producción." },
+      { "icon": "📅", "title": "Agenda & Seguimiento", "desc": "Calendario integrado con recordatorios automáticos. Coordiná rodajes, reuniones y entregas en un solo lugar." },
+      { "icon": "🎬", "title": "Equipo & Crew", "desc": "Base de datos de crew con DNI/CUIL. Exportá planillas a Excel listas para contratos y liquidaciones." },
+      { "icon": "🔧", "title": "Proveedores", "desc": "Base de datos técnica de proveedores con historial de costos por proyecto. Presupuestos sin fricción." },
+      { "icon": "🤖", "title": "Asistente IA", "desc": "Generá propuestas, presupuestos y emails comerciales con Claude AI. Ahorrá horas en tareas administrativas." }
+    ],
+    "pricingHeadline": "Precios que escalan con tu productora.",
+    "pricingSub": "Empezá gratis. Crecé cuando estés listo.",
+    "pricingLink": "Ver comparativa completa →",
+    "pricingTiers": [
+      {
+        "name": "Starter",
+        "price": "Gratis",
+        "period": null,
+        "desc": "Para empezar a organizar tu productora.",
+        "features": ["Clientes & CRM", "Trabajos en Kanban", "Agenda & Seguimiento", "Equipo & Crew", "Proveedores"],
+        "cta": "Empezar gratis",
+        "highlighted": false
+      },
+      {
+        "name": "Pro",
+        "price": "$29",
+        "period": "/mes USD",
+        "desc": "Para productoras que quieren crecer.",
+        "features": ["Todo lo de Starter", "Call Sheets", "Presupuestos", "Shooting Schedule", "Moodboard"],
+        "cta": "Empezar con Pro",
+        "highlighted": true,
+        "badge": "Recomendado"
+      },
+      {
+        "name": "Studio",
+        "price": "$79",
+        "period": "/mes USD",
+        "desc": "Para estudios y equipos grandes.",
+        "features": ["Todo lo de Pro", "Shot List", "Script Breakdown", "Portal Cliente", "White-label"],
+        "cta": "Hablar con ventas",
+        "highlighted": false
+      }
+    ],
+    "ctaFinalHeadline": "Tu próxima producción empieza acá.",
+    "ctaFinalSub": "Unite a productoras de toda LATAM que ya usan Klapr para crecer.",
+    "ctaFinalBtn": "Crear cuenta gratis",
+    "noCC": "Sin tarjeta de crédito. Sin compromisos."
+  },
+  "Pricing": {
+    "headline": "Precios que escalan con tu productora.",
+    "sub": "Empezá gratis. Sin tarjeta de crédito. Crecé cuando estés listo.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualBadge": "2 meses gratis",
+    "billedAnnually": "Facturado anualmente ({total}/año)",
+    "recommended": "Recomendado",
+    "tableTitle": "Comparativa completa",
+    "faqTitle": "Preguntas frecuentes",
+    "ctaHeadline": "¿Dudás qué plan elegir?",
+    "ctaSub": "Empezá con Starter gratis y migrá cuando lo necesites. Sin fricción, sin pérdida de datos.",
+    "ctaBtn": "Crear cuenta gratis",
+    "period": "/mes USD",
+    "tiers": [
+      {
+        "name": "Starter",
+        "priceFree": "Gratis",
+        "monthly": 0,
+        "annual": 0,
+        "isFree": true,
+        "desc": "Para empezar a organizar tu productora sin costo.",
+        "cta": "Empezar gratis"
+      },
+      {
+        "name": "Pro",
+        "monthly": 29,
+        "annual": 24,
+        "isFree": false,
+        "desc": "Para productoras que quieren profesionalizarse.",
+        "cta": "Empezar con Pro"
+      },
+      {
+        "name": "Studio",
+        "monthly": 79,
+        "annual": 66,
+        "isFree": false,
+        "desc": "Para estudios y equipos de producción grandes.",
+        "cta": "Hablar con ventas"
+      }
+    ],
+    "features": [
+      "Clientes & CRM",
+      "Trabajos en Kanban",
+      "Agenda & Seguimiento",
+      "Equipo & Crew",
+      "Proveedores",
+      "Call Sheets",
+      "Presupuestos",
+      "Shooting Schedule",
+      "Moodboard",
+      "Asistente IA",
+      "Shot List",
+      "Script Breakdown",
+      "Portal Cliente",
+      "White-label"
+    ],
+    "tierFeatures": {
+      "starter": [true, true, true, true, true, false, false, false, false, false, false, false, false, false],
+      "pro": [true, true, true, true, true, true, true, true, true, true, false, false, false, false],
+      "studio": [true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+    },
+    "faq": [
+      {
+        "q": "¿Puedo empezar gratis sin tarjeta de crédito?",
+        "a": "Sí. El plan Starter es 100% gratuito y no requiere ningún medio de pago. Podés usarlo todo el tiempo que quieras sin límite."
+      },
+      {
+        "q": "¿Klapr funciona con pesos argentinos y dólares?",
+        "a": "Sí. Klapr soporta multi-moneda: podés manejar proyectos en ARS, USD, MXN y CLP. Los presupuestos se adaptan a la moneda de cada proyecto."
+      },
+      {
+        "q": "¿Puedo exportar los datos de mi crew para contratos?",
+        "a": "Sí. En todos los planes podés exportar la base de datos de crew a Excel incluyendo campos legales como DNI, CUIL y fecha de nacimiento, listos para contratos y liquidaciones de servicios."
+      },
+      {
+        "q": "¿Qué pasa si cancelo mi suscripción?",
+        "a": "Tu cuenta pasa automáticamente al plan Starter. No perdés ningún dato — simplemente algunas funcionalidades avanzadas quedan inaccesibles hasta que renueves tu suscripción."
+      },
+      {
+        "q": "¿Hay descuento para equipos grandes o agencias?",
+        "a": "Sí. Si tenés más de 10 usuarios o manejás más de 3 productoras, contactanos en hola@klapr.com para armar un plan personalizado con precio especial."
+      }
+    ]
+  },
+  "Features": {
+    "headerTitle": "Herramientas hechas para la producción audiovisual.",
+    "headerSub": "Cada módulo fue diseñado pensando en el flujo real de trabajo de una productora independiente en LATAM.",
+    "tryFree": "Probarlo gratis →",
+    "comingSoonBadge": "Próximamente",
+    "comingSoonTitle": "En desarrollo activo",
+    "comingSoonSub": "Funcionalidades que estamos construyendo ahora mismo.",
+    "ctaHeadline": "Probá Klapr gratis hoy.",
+    "ctaSub": "Sin tarjeta de crédito. Sin límite de tiempo para el plan Starter.",
+    "ctaBtn": "Crear cuenta gratis",
+    "modules": [
+      {
+        "icon": "👥",
+        "title": "Clientes & CRM",
+        "headline": "Todos tus clientes, en un solo lugar.",
+        "problem": "Tus clientes están repartidos entre WhatsApp, una planilla y tu memoria. Cuando alguien del equipo necesita el contacto de «esa marca del año pasado», nadie sabe dónde buscar.",
+        "desc": "Klapr centraliza cada cliente, agencia y marca en una sola base de datos buscable. Cada ficha tiene datos de contacto, información de facturación, historial de relación y todos los proyectos que hicieron juntos — para que todo tu equipo siempre esté en la misma página.",
+        "bullets": [
+          "Fichas completas con datos de facturación, notas y etiquetas",
+          "Historial de proyectos por cliente — montos, fechas, estados",
+          "Búsqueda y filtros para encontrar cualquier cliente en segundos"
+        ],
+        "mockLabels": {
+          "statuses": ["Prospecto", "Propuesta enviada", "Cerrado ✓"]
+        }
+      },
+      {
+        "icon": "📋",
+        "title": "Trabajos en Kanban",
+        "headline": "Tu pipeline de producción, siempre claro.",
+        "problem": "Estás manejando cinco producciones a la vez y el estado de cada una vive en hilos de WhatsApp. Las cosas se pierden y nadie sabe qué está trabado.",
+        "desc": "Cada trabajo vive en un tablero Kanban con tarjetas que arrastrás entre etapas personalizadas: Brief, Presupuesto enviado, Preproducción, Rodaje, Postproducción, Entregado, Facturado. De un vistazo ves todos los proyectos activos y dónde está trabado cada uno.",
+        "bullets": [
+          "Kanban drag & drop con etapas 100% configurables",
+          "Una tarjeta por trabajo con cliente, presupuesto, fechas y equipo",
+          "Filtros por cliente, estado o rango de fechas"
+        ],
+        "mockLabels": {
+          "columns": ["Prospecto", "En producción", "Post"]
+        }
+      },
+      {
+        "icon": "📅",
+        "title": "Agenda & Seguimiento",
+        "headline": "Ningún seguimiento se vuelve a perder.",
+        "problem": "Los seguimientos se olvidan. Ese cliente al que le mandaste un presupuesto hace tres semanas nunca tuvo respuesta porque el recordatorio era un papelito que se cayó del monitor.",
+        "desc": "La agenda de Klapr te permite registrar cada interacción —llamadas, emails, reuniones, presupuestos— y configurar recordatorios de seguimiento para que nada se pierda. Ves tu semana de un vistazo y sabés exactamente quién necesita atención hoy.",
+        "bullets": [
+          "Registrá llamadas, emails y reuniones por cliente o proyecto",
+          "Recordatorios de seguimiento con fecha límite y prioridad",
+          "Vista semanal de todos los próximos contactos"
+        ],
+        "mockLabels": {}
+      },
+      {
+        "icon": "🎬",
+        "title": "Equipo & Crew",
+        "headline": "Tu base de crew, siempre a mano.",
+        "problem": "En cada producción rehacés tu base de crew desde cero — buscando en los contactos del teléfono y en hilos viejos de WhatsApp al DP que usaste hace ocho meses.",
+        "desc": "Tu base completa de crew en un solo lugar. Cada ficha tiene tarifas, disponibilidad, habilidades y todos los campos legales argentinos necesarios para contratos y seguros: DNI, CUIL, fecha de nacimiento. Exportá cualquier lista de crew directo a Excel para contaduría o legal — formateada y lista para enviar.",
+        "bullets": [
+          "Fichas de crew con tarifas, habilidades y disponibilidad",
+          "DNI / CUIL / fecha de nacimiento para contratos y exportación a seguros",
+          "Exportación a Excel con un clic, lista para contaduría"
+        ],
+        "mockLabels": {
+          "headers": ["Nombre", "Rol", "CUIL"],
+          "exportBtn": "↓ Exportar a Excel"
+        }
+      },
+      {
+        "icon": "🔧",
+        "title": "Proveedores",
+        "headline": "Tu red de proveedores técnicos, organizada.",
+        "problem": "Alquilar equipo implica llamar a tres casas distintas, cruzar presupuestos en una planilla y rezar para no haberte olvidado de reservar la grúa.",
+        "desc": "Mantenés tu red completa de proveedores —casas de alquiler, postproductoras, estudios— con listas de equipo, precios y datos de contacto. Asociás proveedores a trabajos para trackear costos por producción y comparar vendors con el tiempo.",
+        "bullets": [
+          "Base de proveedores con catálogo de equipos y precios",
+          "Asociá proveedores a trabajos para controlar costos de producción",
+          "Números de serie de equipos para exportación a seguros"
+        ],
+        "mockLabels": {}
+      },
+      {
+        "icon": "🤖",
+        "title": "Asistente IA",
+        "headline": "Redactá en segundos lo que antes te llevaba horas.",
+        "problem": "Redactar una propuesta creativa, un desglose de presupuesto o un email de seguimiento profesional lleva tiempo que no tenés — y quedarse en blanco a las 11 de la noche es la peor parte del laburo.",
+        "desc": "El asistente de IA de Klapr (impulsado por Claude) entiende de producción audiovisual. Pedile que redacte una propuesta creativa, estime un presupuesto para un rodaje de dos días, escriba un email de seguimiento o genere un checklist de preproducción. También podés adjuntar un PDF de brief y pedirle que lo analice.",
+        "bullets": [
+          "Generá propuestas, presupuestos y emails en segundos",
+          "Contextual: sabe en qué sección estás y qué proyectos tenés activos",
+          "Adjuntá briefs en PDF — el asistente los lee y analiza"
+        ],
+        "mockLabels": {
+          "userMsg": "Necesito una propuesta para 3 spots de una marca de indumentaria.",
+          "aiMsg": "Claro, te genero la propuesta. ¿Tenés referencias visuales o paleta de marca definida?",
+          "typing": "Claude está escribiendo..."
+        }
+      }
+    ],
+    "comingSoonItems": [
+      {
+        "icon": "📄",
+        "title": "Generador de presupuestos",
+        "desc": "Constructor de presupuestos de producción con IA: partidas, tarifas de crew, costos de equipos y conversión USD/ARS."
+      },
+      {
+        "icon": "📝",
+        "title": "Generador de propuestas",
+        "desc": "Propuestas creativas completas con identidad de marca, tratamiento y pricing — exportadas a PDF."
+      },
+      {
+        "icon": "📧",
+        "title": "Call Sheets × Gmail",
+        "desc": "Call sheets generados automáticamente y enviados por Gmail a toda la lista de crew con un clic."
+      },
+      {
+        "icon": "📆",
+        "title": "Tareas × Google Calendar",
+        "desc": "Sincronización bidireccional de tareas y fechas límite de producción con Google Calendar."
+      }
+    ]
+  },
+  "Signup": {
+    "creating": "Creando tu cuenta...",
+    "redirecting": "Serás redirigido en un momento."
+  }
+}
