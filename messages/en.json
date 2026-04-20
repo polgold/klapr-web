@@ -1,12 +1,13 @@
 {
   "MockDashboard": {
-    "sidebarLabels": ["Dashboard", "Clients", "Projects", "Schedule", "Team", "Suppliers"],
+    "sidebarLabels": ["Dashboard", "Clients", "Projects", "Schedule", "Gear", "Suppliers"],
     "columnLabels": ["Prospect", "In production", "Delivered"],
     "newLabel": "+ New"
   },
   "Navbar": {
     "features": "Features",
     "pricing": "Pricing",
+    "docs": "Docs",
     "cta": "Get started free",
     "langSwitch": "ES",
     "openMenu": "Open menu",
@@ -16,18 +17,22 @@
     "tagline": "The CRM for independent audiovisual production companies. Built for LATAM.",
     "product": "Product",
     "resources": "Resources",
+    "docs": "Documentation",
+    "wizard": "Getting started",
     "blog": "Blog",
     "comingSoon": "coming soon",
     "contact": "Contact",
-    "copyright": "© 2026 Klapr. All rights reserved.",
+    "copyright": "© 2026 Klapr · klapr.io. All rights reserved.",
     "love": "Made with ♥ for LATAM production companies"
   },
   "Home": {
-    "badge": "Built for LATAM",
+    "badge": "Built for LATAM production companies",
+    "mcpBadge": "MCP · OAuth 2.1 · Claude.ai",
     "heroHeadline": "The CRM for audiovisual production companies.",
-    "heroSub": "Manage clients, projects, crew and equipment from one place. Built for LATAM.",
+    "heroTagline": "The only CRM you can connect to Claude.ai and operate from chat.",
+    "heroSub": "Manage clients, projects, crew, gear, and invoicing from one place. With a built-in AI assistant via MCP.",
     "ctaStart": "Get started free",
-    "ctaDemo": "See demo",
+    "ctaDemo": "See features",
     "socialLabel": "Used by production companies in Argentina, Mexico and Chile",
     "socialProof": [
       "Filmar Productions",
@@ -60,13 +65,85 @@
     "featuresSub": "Klapr integrates the tools your production company needs — without the ones it doesn't.",
     "featuresLink": "See all features →",
     "features": [
-      { "icon": "👥", "title": "CRM & Clients", "desc": "Visual pipeline with complete client history. Never lose an audiovisual lead again." },
-      { "icon": "📋", "title": "Project Kanban", "desc": "Organize every project with drag & drop. Custom stages and full visibility of your production pipeline." },
-      { "icon": "📅", "title": "Schedule & Follow-up", "desc": "Integrated calendar with automatic reminders. Coordinate shoots, meetings, and deliveries in one place." },
-      { "icon": "🎬", "title": "Team & Crew", "desc": "Crew database with Argentine legal fields (DNI/CUIL). Export Excel sheets ready for contracts." },
-      { "icon": "🔧", "title": "Suppliers", "desc": "Technical supplier database with cost history per project. Budgets without friction." },
-      { "icon": "🤖", "title": "AI Assistant", "desc": "Generate proposals, budgets, and commercial emails with Claude AI. Save hours on admin tasks." }
+      {
+        "icon": "👥",
+        "title": "Client CRM",
+        "desc": "Full client profiles with type, industry, multiple contacts, tax info, tags, and social links. Fully searchable."
+      },
+      {
+        "icon": "📋",
+        "title": "Kanban Pipeline",
+        "desc": "Drag-and-drop job board with 7 stages from lead to invoiced. Supports 7 audiovisual job types."
+      },
+      {
+        "icon": "📅",
+        "title": "Schedule & Follow-ups",
+        "desc": "Log calls, WhatsApp, emails, meetings, and tasks per client or job. With reminders so nothing slips."
+      },
+      {
+        "icon": "🎬",
+        "title": "Gear Inventory",
+        "desc": "Full equipment inventory with serial numbers, 8 categories (camera, drone, lighting…). USD value and warranty."
+      },
+      {
+        "icon": "🧑‍🤝‍🧑",
+        "title": "Suppliers & Crew",
+        "desc": "Database with 20+ specialties. Daily rate in USD or ARS, 1–5 rating, availability, and job history."
+      },
+      {
+        "icon": "🤖",
+        "title": "Import Clients with AI",
+        "desc": "Paste a list of client names. Claude automatically enriches each with industry, website, Instagram, and contact role."
+      },
+      {
+        "icon": "🧾",
+        "title": "AFIP Electronic Invoicing",
+        "desc": "Issue real invoices via ARCA WSFE. Supports Monotributo and Responsable Inscripto. Linked to jobs.",
+        "badge": "Argentina"
+      },
+      {
+        "icon": "📄",
+        "title": "PDF Quotes",
+        "desc": "Build quotes with categorized line items (crew, gear, post). Multi-currency USD/ARS, downloadable PDF.",
+        "badge": "Pro"
+      },
+      {
+        "icon": "🔌",
+        "title": "AI Assistant via MCP",
+        "desc": "Add KLAPR as a Custom Connector in Claude.ai and operate your business from chat. OAuth 2.1 included.",
+        "badge": "Pro"
+      }
     ],
+    "mcpSection": {
+      "badge": "Unique differentiator",
+      "headline": "Operate KLAPR from Claude.ai without leaving chat.",
+      "sub": "KLAPR implements the Model Context Protocol (MCP) with OAuth 2.1. Add it as a Custom Connector in Claude.ai or Claude Desktop and control your business with natural language.",
+      "bullets": [
+        "Create and edit clients, jobs, suppliers, and follow-ups",
+        "Assign crew to jobs with role, rate, and service date",
+        "Generate liability insurance emails automatically",
+        "List tax documents and organization records",
+        "OAuth 2.1 login — no token copying, no API keys"
+      ],
+      "exampleLabel": "Real prompt example:",
+      "examplePrompt": "Create a new client called Cervecería Patagonia, it's a brand in the beverages industry. Then create a job 'Corporate Video 2026' assigned to that client with status proposal sent.",
+      "exampleResponse": "✓ Client created: Cervecería Patagonia (Brand · Beverages)\n✓ Job created: Corporate Video 2026 → Proposal sent",
+      "cta": "See installation tutorial",
+      "ctaPlan": "Available on Pro plan"
+    },
+    "afipSection": {
+      "badge": "Argentina only",
+      "headline": "AFIP electronic invoicing from day one.",
+      "sub": "Klapr connects directly to ARCA WSFE with your production certificate. Issue real invoices — not simulated, not manual PDFs — without leaving the app.",
+      "bullets": [
+        "Invoice types B and C (Monotributo) and A and B (Responsable Inscripto)",
+        "Configurable point of sale per organization",
+        "Invoice linked to the corresponding job",
+        "Downloadable invoice PDF with your organization's branding"
+      ],
+      "note": "Requires a production AFIP certificate (the same one you use for your AFIP declarations).",
+      "cta": "See AFIP tutorial"
+    },
     "pricingHeadline": "Pricing that scales with your production company.",
     "pricingSub": "Start free. Grow when you're ready.",
     "pricingLink": "See full comparison →",
@@ -75,8 +152,17 @@
         "name": "Starter",
         "price": "Free",
         "period": null,
-        "desc": "To start organizing your production company.",
-        "features": ["CRM & Clients", "Project Kanban", "Schedule & Follow-up", "Team & Crew", "Suppliers"],
+        "desc": "To start organizing your production company at no cost.",
+        "features": [
+          "Full client CRM",
+          "Kanban job pipeline",
+          "Schedule & follow-ups",
+          "Gear inventory",
+          "Suppliers & crew database",
+          "Import clients with AI",
+          "Excel export",
+          "AFIP electronic invoicing"
+        ],
         "cta": "Get started free",
         "highlighted": false
       },
@@ -84,8 +170,13 @@
         "name": "Pro",
         "price": "$29",
         "period": "/mo USD",
-        "desc": "For production companies that want to grow.",
-        "features": ["Everything in Starter", "Call Sheets", "Budgets", "Shooting Schedule", "Moodboard"],
+        "desc": "For production companies that want to professionalize.",
+        "features": [
+          "Everything in Starter",
+          "PDF Quotes (USD/ARS)",
+          "Crew assigned to jobs",
+          "AI Assistant via MCP"
+        ],
         "cta": "Start with Pro",
         "highlighted": true,
         "badge": "Recommended"
@@ -95,7 +186,11 @@
         "price": "$79",
         "period": "/mo USD",
         "desc": "For studios and large production teams.",
-        "features": ["Everything in Pro", "Shot List", "Script Breakdown", "Client Portal", "White-label"],
+        "features": [
+          "Everything in Pro",
+          "White-label & custom branding",
+          "Multi-organization"
+        ],
         "cta": "Talk to sales",
         "highlighted": false
       }
@@ -147,25 +242,24 @@
       }
     ],
     "features": [
-      "CRM & Clients",
-      "Project Kanban",
-      "Schedule & Follow-up",
-      "Team & Crew",
-      "Suppliers",
-      "Call Sheets",
-      "Budgets",
-      "Shooting Schedule",
-      "Moodboard",
-      "AI Assistant",
-      "Shot List",
-      "Script Breakdown",
-      "Client Portal",
-      "White-label"
+      "Client CRM",
+      "Kanban job pipeline",
+      "Schedule & follow-ups",
+      "Gear inventory",
+      "Suppliers & crew",
+      "Import clients with AI",
+      "Excel export",
+      "AFIP electronic invoicing",
+      "PDF Quotes (USD/ARS)",
+      "Crew assigned to jobs",
+      "AI Assistant via MCP",
+      "White-label & branding",
+      "Multi-organization"
     ],
     "tierFeatures": {
-      "starter": [true, true, true, true, true, false, false, false, false, false, false, false, false, false],
-      "pro": [true, true, true, true, true, true, true, true, true, true, false, false, false, false],
-      "studio": [true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+      "starter": [true, true, true, true, true, true, true, true, false, false, false, false, false],
+      "pro": [true, true, true, true, true, true, true, true, true, true, true, false, false],
+      "studio": [true, true, true, true, true, true, true, true, true, true, true, true, true]
     },
     "faq": [
       {
@@ -173,8 +267,16 @@
         "a": "Yes. The Starter plan is 100% free and doesn't require any payment method. You can use it for as long as you want."
       },
       {
-        "q": "Does Klapr work with Argentine pesos and US dollars?",
-        "a": "Yes. Klapr supports multi-currency: you can manage projects in ARS, USD, MXN, and CLP. Budgets adapt to each project's currency."
+        "q": "Does Klapr support Argentine pesos and US dollars?",
+        "a": "Yes. Quotes, crew rates, and gear costs can be in ARS or USD. AFIP invoices are issued in ARS."
+      },
+      {
+        "q": "What do I need for AFIP electronic invoicing?",
+        "a": "You need to upload your AFIP production certificate from your organization settings. The process is done on the AFIP (ARCA) website. Once uploaded, you can issue real invoices right away."
+      },
+      {
+        "q": "What is the AI Assistant via MCP?",
+        "a": "MCP (Model Context Protocol) is an open standard that lets Claude.ai connect to apps like Klapr. Add Klapr as a Custom Connector in Claude.ai, log in with OAuth, and you can create clients, jobs, and more from chat."
       },
       {
         "q": "Can I export my crew data for contracts?",
@@ -186,7 +288,7 @@
       },
       {
         "q": "Is there a discount for large teams or agencies?",
-        "a": "Yes. If you have more than 10 users or manage more than 3 production companies, contact us at hola@klapr.com for a custom plan with special pricing."
+        "a": "Yes. Contact us at hola@klapr.io for a custom plan if you manage more than 3 production companies or have a large team."
       }
     ]
   },
@@ -200,122 +302,332 @@
     "ctaHeadline": "Try Klapr free today.",
     "ctaSub": "No credit card. No time limit on the Starter plan.",
     "ctaBtn": "Create free account",
+    "proBadge": "Pro",
     "modules": [
       {
         "icon": "👥",
-        "title": "CRM & Clients",
+        "title": "Client CRM",
         "headline": "All your clients, in one place.",
         "problem": "Your clients are scattered across WhatsApp, a spreadsheet, and your memory. When someone from the team needs the contact for 'that brand from last year', nobody knows where to look.",
-        "desc": "Klapr centralizes every client, agency, and brand in one searchable database. Each record has full contact info, billing data, relationship history, and every project you've done together — so your whole team is always on the same page.",
+        "desc": "Klapr centralizes every client, agency, and brand in one searchable database. Each record has client type (brand / agency / foundation / industry), industry, multiple contacts, full tax info (tax ID, VAT status, address), website, Instagram, LinkedIn, and tags.",
         "bullets": [
-          "Complete contact profiles with billing info, notes, and tags",
-          "Full project history per client — revenues, dates, status",
-          "Quick search and filters to find any client in seconds"
+          "Client type: brand, agency, foundation, industry, tourism",
+          "Full tax info: tax ID, VAT status, address",
+          "Multiple contacts per client with role and contact methods"
         ],
         "mockLabels": {
-          "statuses": ["Prospect", "Proposal sent", "Closed ✓"]
+          "statuses": ["Lead", "Proposal sent", "Confirmed ✓"]
         }
       },
       {
         "icon": "📋",
-        "title": "Project Kanban",
+        "title": "Kanban Job Pipeline",
         "headline": "Your production pipeline, always clear.",
         "problem": "You're managing five productions at once and tracking status over WhatsApp threads. Things fall through the cracks and nobody knows what's blocked.",
-        "desc": "Each production job lives on a Kanban board with drag-and-drop cards you can move through custom stages: Brief, Quote Sent, Pre-production, Shoot, Post-production, Delivered, Invoiced. At a glance you see every active project and where it's stuck.",
+        "desc": "Each job lives on a Kanban board with drag-and-drop cards you can move through 7 stages: Lead → Proposal Sent → Confirmed → In Production → Post Production → Delivered → Invoiced. Supports 7 audiovisual job types: TV spot, event coverage, documentary, advertising, social media, photography, and more.",
         "bullets": [
-          "Drag-and-drop kanban with fully customizable stages",
-          "One card per job with client, budget, dates, and assigned team",
-          "Filter by client, status, or date range"
+          "7 stages: lead → proposal sent → confirmed → in production → post → delivered → invoiced",
+          "7 job types: TV spot, event coverage, documentary, advertising, social media, photography",
+          "One card per job with client, budget, dates, and crew"
         ],
         "mockLabels": {
-          "columns": ["Prospect", "In production", "Post"]
+          "columns": ["Lead", "In production", "Delivered"]
         }
       },
       {
         "icon": "📅",
-        "title": "Schedule & Follow-up",
+        "title": "Schedule & Follow-ups",
         "headline": "No follow-up slips through the cracks.",
         "problem": "Follow-ups get forgotten. That client you quoted three weeks ago never heard back from you because the reminder was a sticky note that fell off your monitor.",
-        "desc": "Klapr's schedule lets you log every interaction — calls, emails, meetings, quotes — and set follow-up reminders so nothing slips. See your week at a glance and know exactly who needs attention today.",
+        "desc": "Log every interaction — calls, emails, WhatsApp, meetings, proposals, reviews, notes, and tasks — with a reminder date. See your week at a glance and know exactly who needs attention today.",
         "bullets": [
-          "Log calls, emails, and meetings per client or project",
-          "Follow-up reminders with due dates and priority",
-          "Weekly calendar view of all upcoming touchpoints"
+          "8 activity types: call, email, WhatsApp, meeting, proposal, review, note, task",
+          "Configurable reminder date per follow-up",
+          "View by client or job, with pending filter"
         ],
         "mockLabels": {}
       },
       {
         "icon": "🎬",
-        "title": "Team & Crew",
-        "headline": "Your crew database, always ready.",
-        "problem": "Every production you rebuild your crew database from scratch — scrolling through phone contacts and old WhatsApp threads to find the DP you used eight months ago.",
-        "desc": "Your full crew database in one place. Each profile has rates, availability, skills, and all the Argentine legal fields needed for contracts and insurance: DNI, CUIL, birthdate. Export any crew list directly to Excel for accounting or legal — formatted and ready to send.",
+        "title": "Gear Inventory",
+        "headline": "Your technical inventory, always up to date.",
+        "problem": "How many times did you look for a camera's serial number for insurance and couldn't find it? Or didn't know if a piece of gear was available or in repair?",
+        "desc": "Full inventory of your technical equipment. Each item has brand, model, serial number, category, operational status, replacement value in USD, purchase date, and warranty expiry. Perfect for insurance policies and knowing what gear you can offer or rent.",
         "bullets": [
-          "Crew profiles with rates, skills, and availability",
-          "DNI / CUIL / birthdate for Argentine contracts and insurance exports",
-          "One-click Excel export formatted for accounting"
-        ],
-        "mockLabels": {
-          "headers": ["Name", "Role", "Tax ID"],
-          "exportBtn": "↓ Export to Excel"
-        }
-      },
-      {
-        "icon": "🔧",
-        "title": "Suppliers",
-        "headline": "Your technical supplier network, organized.",
-        "problem": "Renting equipment means calling three different rental houses, cross-referencing quotes in a spreadsheet, and hoping you didn't forget to book the crane.",
-        "desc": "Keep your full supplier network — rental houses, post-production facilities, studios — with equipment lists, pricing, and contact info. Attach suppliers to specific jobs to track costs per production and compare vendors over time.",
-        "bullets": [
-          "Supplier database with equipment catalogs and pricing",
-          "Assign suppliers to jobs to track production costs",
-          "Equipment serial numbers for insurance and asset export"
+          "8 categories: camera, lens, drone, lighting, audio, grip, monitor, stabilizer",
+          "Status: operational, in repair, retired",
+          "USD replacement value — exportable for insurance"
         ],
         "mockLabels": {}
       },
       {
-        "icon": "🤖",
-        "title": "AI Assistant",
-        "headline": "Draft in seconds what used to take hours.",
-        "problem": "Writing a creative proposal, a budget breakdown, or a professional follow-up email takes time you don't have — and staring at a blank page at 11pm is the worst part of the job.",
-        "desc": "Klapr's built-in AI assistant (powered by Claude) understands audiovisual production. Ask it to draft a creative proposal, estimate a budget for a two-day shoot, write a follow-up email in the right tone, or generate a pre-production checklist. You can even attach a PDF brief and ask it to analyze it directly.",
+        "icon": "🧑‍🤝‍🧑",
+        "title": "Suppliers & Crew",
+        "headline": "Your crew and supplier network, organized.",
+        "problem": "Every production you rebuild your crew database from scratch — scrolling through phone contacts and old WhatsApp threads to find the DP you used eight months ago.",
+        "desc": "Complete database of suppliers and freelancers with 20+ audiovisual specialties: DP, camera operator, production designer, makeup artist, sound engineer, colorist, drone operator, and more. Daily rate in USD or ARS, availability, 1–5 rating, and shared job history.",
         "bullets": [
-          "Generate proposals, budgets, and emails in seconds",
-          "Context-aware: knows your current section and active projects",
-          "Attach PDF briefs — the assistant reads and analyzes them"
+          "20+ specialties: DP, cam op, art director, sound, color, drone op, gaffer, and more",
+          "Daily rate in USD or ARS with job history",
+          "1–5 rating and updatable availability"
         ],
         "mockLabels": {
-          "userMsg": "I need a proposal for 3 spots for a clothing brand.",
-          "aiMsg": "Sure, I'll draft the proposal. Do you have visual references or a defined brand palette?",
-          "typing": "Claude is typing..."
+          "headers": ["Name", "Specialty", "Day rate"],
+          "exportBtn": "↓ Export to Excel"
         }
+      },
+      {
+        "icon": "🤖",
+        "title": "Import Clients with AI",
+        "headline": "From a list of names to a full database in seconds.",
+        "problem": "You have a spreadsheet with 40 brand and agency names you've worked with, but nothing else — no industry, no website, no contact. Filling it in manually takes hours.",
+        "desc": "Paste a list of client names (plain text, imported from Excel, or copied from anywhere). Claude analyzes each name and automatically enriches the company's industry, website, Instagram, and likely contact role. You review, confirm or edit, and create all clients at once.",
+        "bullets": [
+          "Paste free text — Klapr detects names automatically",
+          "Claude enriches: industry, website, Instagram, contact role",
+          "Review and confirm before creating — full control"
+        ],
+        "mockLabels": {
+          "pasteLabel": "Pasted names:",
+          "pasteContent": "Nike Argentina\nRenault Argentina\nTelecom Personal",
+          "resultLabel": "Enriched by Claude:",
+          "results": [
+            { "name": "Nike Argentina", "rubro": "Sportswear", "web": "nike.com/ar", "ig": "@nikeargentina" },
+            { "name": "Renault Argentina", "rubro": "Automotive", "web": "renault.com.ar", "ig": "@renaultarg" },
+            { "name": "Telecom Personal", "rubro": "Telecom", "web": "telecom.com.ar", "ig": "@telecom" }
+          ]
+        }
+      },
+      {
+        "icon": "🧾",
+        "title": "AFIP Electronic Invoicing",
+        "headline": "Real invoices without leaving Klapr.",
+        "problem": "Issuing an electronic invoice requires logging into the AFIP website, finding the WSFE service, entering data manually, and downloading the PDF. In production you do this 20 times a month.",
+        "desc": "Klapr connects to ARCA WSFE with your AFIP production certificate and issues real electronic invoices directly from the app. Supports Monotributo (type C) and Responsable Inscripto (types A and B). The invoice is linked to the corresponding job with its CAE number and downloadable PDF.",
+        "bullets": [
+          "Direct connection to ARCA WSFE with production certificate",
+          "Type C (Monotributo) and A/B (Responsable Inscripto)",
+          "Configurable point of sale per organization",
+          "Invoice linked to job — full billing history"
+        ],
+        "mockLabels": {
+          "invoiceType": "Invoice C",
+          "invoiceNumber": "0001-00000042",
+          "client": "Cervecería Quilmes SA",
+          "amount": "$185,000.00",
+          "cae": "74023456789012 ✓"
+        }
+      },
+      {
+        "icon": "📄",
+        "title": "PDF Quotes",
+        "headline": "Professional quotes, in minutes.",
+        "problem": "Building a quote in Excel, formatting it, exporting to PDF, and sending by email takes an hour. When the client asks for changes, you start over.",
+        "desc": "Build complete quotes with categorized line items: production, crew, gear, and post. Sequential numbering per organization, multi-currency (USD or ARS), approval states (draft / sent / approved / rejected), and downloadable PDF with your organization's branding.",
+        "bullets": [
+          "Categorized line items: production, crew, gear, post",
+          "Multi-currency: USD or ARS per quote",
+          "States: draft → sent → approved → converted to job"
+        ],
+        "mockLabels": {
+          "title": "Quote #0042",
+          "status": "Sent",
+          "items": ["DP Crew × 2 days", "Sony FX6 × 3 days", "Post production"],
+          "amounts": ["$1,200", "$450", "$800"],
+          "total": "$2,450 USD"
+        },
+        "isPro": true
+      },
+      {
+        "icon": "🔌",
+        "title": "AI Assistant via MCP",
+        "headline": "KLAPR in your Claude chat. Without switching tabs.",
+        "problem": "You have Claude open to draft content and Klapr open to operate. What if you could do everything from chat, without switching tabs?",
+        "desc": "KLAPR implements the Model Context Protocol (MCP) with OAuth 2.1. Add it as a Custom Connector in Claude.ai or Claude Desktop and operate your business from chat: create clients, set up jobs, assign crew, generate insurance emails, query invoices. All with your login, no token pasting.",
+        "bullets": [
+          "Create and edit clients, jobs, suppliers, follow-ups",
+          "Assign crew to jobs with role, rate, and date",
+          "Generate liability insurance emails",
+          "Query invoices and organization documents",
+          "OAuth 2.1 — log in once, everything stays connected"
+        ],
+        "mockLabels": {
+          "userMsg": "Create a client 'Cervecería Patagonia', brand, beverages industry. Then create a job 'Corporate Video 2026', proposal sent, budget 8000 USD.",
+          "aiMsg": "✓ Client created: Cervecería Patagonia (Brand · Beverages)\n✓ Job created: Corporate Video 2026 → Proposal sent · $8,000 USD",
+          "typing": "Claude executing in KLAPR..."
+        },
+        "isPro": true
       }
     ],
     "comingSoonItems": [
       {
-        "icon": "📄",
-        "title": "Budget Generator",
-        "desc": "AI-powered production budget builder with line items, crew rates, equipment costs, and USD/ARS conversion."
+        "icon": "📞",
+        "title": "Call Sheets",
+        "desc": "Auto-generated call sheets per shoot day, sent to the full crew with one click."
       },
       {
-        "icon": "📝",
-        "title": "Proposal Generator",
-        "desc": "Full creative proposals with brand identity, treatment, and pricing — exported to PDF."
+        "icon": "🗓️",
+        "title": "Shooting Schedule",
+        "desc": "Shoot day planner with sequences, locations, and estimated times."
       },
       {
-        "icon": "📧",
-        "title": "Call Sheets × Gmail",
-        "desc": "Auto-generated call sheets sent directly via Gmail to the full crew list."
+        "icon": "🖼️",
+        "title": "Moodboard",
+        "desc": "Visual reference boards for creative direction and client approval."
       },
       {
-        "icon": "📆",
-        "title": "Tasks × Google Calendar",
-        "desc": "Two-way sync of production tasks and deadlines with Google Calendar."
+        "icon": "👥",
+        "title": "Multi-user & Roles",
+        "desc": "Invite your team with distinct roles: producer, account manager, administrator."
+      },
+      {
+        "icon": "🖋️",
+        "title": "Digital Signatures",
+        "desc": "Electronic signing of contracts with crew and clients directly from Klapr."
+      },
+      {
+        "icon": "🌐",
+        "title": "Client Portal",
+        "desc": "A space where clients follow project progress, download materials, and approve deliverables."
       }
     ]
   },
   "Signup": {
     "creating": "Creating your account...",
     "redirecting": "You'll be redirected in a moment."
+  },
+  "Wizard": {
+    "title": "Getting started with Klapr",
+    "sub": "Complete these steps and in under 15 minutes your production company is organized.",
+    "progressLabel": "steps completed",
+    "openApp": "Open in app →",
+    "proStep": "Pro",
+    "advancedStep": "Advanced",
+    "markDone": "Mark as done",
+    "done": "Done ✓",
+    "ctaHeadline": "All set? Start using Klapr.",
+    "ctaBtn": "Open the app",
+    "steps": [
+      {
+        "id": "org",
+        "title": "Create your organization",
+        "desc": "Fill in your name, upload your logo, choose your brand color, and add your tax info. This appears on your quotes and invoices.",
+        "appPath": "/settings/organizacion"
+      },
+      {
+        "id": "cliente",
+        "title": "Add your first client",
+        "desc": "Create it manually with a full profile, or paste a list of names and let Claude automatically enrich them with industry, website, and Instagram.",
+        "appPath": "/clientes/nuevo"
+      },
+      {
+        "id": "equipo",
+        "title": "Log your gear",
+        "desc": "Add your cameras, drones, lights, and other equipment. With serial numbers and USD values, your inventory is ready for insurance and exports.",
+        "appPath": "/equipo"
+      },
+      {
+        "id": "proveedores",
+        "title": "Add suppliers and crew",
+        "desc": "Add the freelancers and rental houses you use regularly. With specialty, rate, and availability — ready to assign to any job.",
+        "appPath": "/proveedores"
+      },
+      {
+        "id": "trabajo",
+        "title": "Create your first job",
+        "desc": "Open a job in the pipeline, assign it to a client, and set the right stage. From here you can move cards as production progresses.",
+        "appPath": "/trabajos/nuevo"
+      },
+      {
+        "id": "presupuesto",
+        "title": "Issue your first quote",
+        "desc": "Build a quote with crew, gear, and post line items. Download the PDF and send it to the client. When approved, convert it directly to a confirmed job.",
+        "appPath": "/presupuestos/nuevo",
+        "isPro": true
+      },
+      {
+        "id": "mcp",
+        "title": "Connect Claude as your assistant",
+        "desc": "Add Klapr as a Custom Connector in Claude.ai or Claude Desktop. Once connected, create clients, jobs, and more from chat with natural language.",
+        "docsPath": "/docs/conectar-claude",
+        "isAdvanced": true
+      }
+    ]
+  },
+  "Docs": {
+    "title": "Documentation & tutorials",
+    "sub": "Step-by-step guides to get the most out of Klapr.",
+    "categories": {
+      "start": "Getting started",
+      "manage": "Management",
+      "argentina": "Argentina",
+      "advanced": "Advanced"
+    },
+    "tutorials": [
+      {
+        "slug": "crear-cuenta",
+        "category": "start",
+        "icon": "🚀",
+        "title": "Create your account and first organization",
+        "desc": "Email signup, confirmation, and how to fill in your organization details.",
+        "time": "5 min"
+      },
+      {
+        "slug": "importar-clientes",
+        "category": "start",
+        "icon": "🤖",
+        "title": "Import clients with AI",
+        "desc": "Paste a list of names and let Claude fill in industry, website, and Instagram.",
+        "time": "5 min"
+      },
+      {
+        "slug": "pipeline-kanban",
+        "category": "manage",
+        "icon": "📋",
+        "title": "Set up your Kanban pipeline",
+        "desc": "Create jobs, move them between stages, and link them to clients.",
+        "time": "10 min"
+      },
+      {
+        "slug": "asignar-crew",
+        "category": "manage",
+        "icon": "🧑‍🤝‍🧑",
+        "title": "Assign crew to a job",
+        "desc": "Add suppliers to a job with role, service date, and rate.",
+        "time": "5 min"
+      },
+      {
+        "slug": "facturacion-afip",
+        "category": "argentina",
+        "icon": "🧾",
+        "title": "Set up AFIP invoicing",
+        "desc": "Upload your ARCA certificate, configure your point of sale, and issue your first real invoice.",
+        "time": "20 min"
+      },
+      {
+        "slug": "presupuestos-pdf",
+        "category": "argentina",
+        "icon": "📄",
+        "title": "Issue your first PDF quote",
+        "desc": "Create, add line items, categorize, download PDF, and convert to job.",
+        "time": "10 min"
+      },
+      {
+        "slug": "conectar-claude",
+        "category": "advanced",
+        "icon": "🔌",
+        "title": "Connect KLAPR to Claude.ai",
+        "desc": "Add KLAPR as a Custom Connector and operate from chat with OAuth 2.1.",
+        "time": "10 min"
+      },
+      {
+        "slug": "white-label",
+        "category": "advanced",
+        "icon": "🎨",
+        "title": "White-label and branding",
+        "desc": "Upload your logo, change brand color, and configure your organization profile.",
+        "time": "5 min"
+      }
+    ]
   }
 }

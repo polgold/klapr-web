@@ -17,5 +17,11 @@ export const routing = defineRouting({
       es: "/registro",
       en: "/signup",
     },
+    "/wizard": {
+      es: "/wizard",
+      en: "/onboarding",
+    },
+    "/docs": "/docs",
+    "/docs/[slug]": "/docs/[slug]",
   },
 });

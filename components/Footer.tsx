@@ -28,13 +28,19 @@ export function Footer() {
             </div>
             <div className="flex flex-col gap-3">
               <span className="text-sm font-semibold text-white">{t("resources")}</span>
+              <Link href="/docs" className="text-sm text-gray-400 hover:text-white transition-colors">
+                {t("docs")}
+              </Link>
+              <Link href="/wizard" className="text-sm text-gray-400 hover:text-white transition-colors">
+                {t("wizard")}
+              </Link>
               <span className="text-sm text-gray-600 flex items-center gap-1.5">
                 {t("blog")}
                 <span className="text-xs px-1.5 py-0.5 rounded" style={{ background: "#1f1f1f", color: "#888" }}>
                   {t("comingSoon")}
                 </span>
               </span>
-              <a href="mailto:hola@klapr.com" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:hola@klapr.io" className="text-sm text-gray-400 hover:text-white transition-colors">
                 {t("contact")}
               </a>
             </div>

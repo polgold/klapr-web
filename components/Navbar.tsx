@@ -12,7 +12,8 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const switchLocale = () => {
-    router.replace(pathname, { locale: locale === "es" ? "en" : "es" });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    router.replace(pathname as any, { locale: locale === "es" ? "en" : "es" });
   };
 
   return (
@@ -43,6 +44,12 @@ export function Navbar() {
               className="text-sm text-gray-400 hover:text-white transition-colors"
             >
               {t("pricing")}
+            </Link>
+            <Link
+              href="/docs"
+              className="text-sm text-gray-400 hover:text-white transition-colors"
+            >
+              {t("docs")}
             </Link>
             <button
               onClick={switchLocale}
@@ -95,6 +102,13 @@ export function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               {t("pricing")}
+            </Link>
+            <Link
+              href="/docs"
+              className="text-sm text-gray-400 hover:text-white px-3 py-3 rounded-lg hover:bg-gray-900 transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              {t("docs")}
             </Link>
             <button
               onClick={() => { switchLocale(); setMenuOpen(false); }}
